@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`button should match snapshot 1`] = `
+.emotion-0 {
+  color: inherit;
+}
+
+<button
+  className="emotion-0"
+  onClick={[MockFunction]}
+  type="button"
+>
+  Click Me
+</button>
+`;

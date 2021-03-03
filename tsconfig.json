@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "baseUrl": "./",
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "./dist/",
+    "paths": { "app/*": ["src/*"] },
+    "sourceMap": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "target": "es5"
+  },
+  "include": [
+    "./.eslintrc.js",
+    "./.modernizrrc.js",
+    "./jest.config.ts",
+    "./jest.setup.ts",
+    "./webpack.common.js",
+    "./webpack.dev.js",
+    "./webpack.prod.js",
+    "./node_modules/jest-dom",
+    "./src",
+    "./storybook"
+  ],
+  "exclude": ["node_modules", "dist", "**/_template/**"]
+}
